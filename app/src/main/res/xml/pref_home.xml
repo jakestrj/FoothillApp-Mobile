@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+                        android:key="notif_pref"
+                        android:title="@string/pref_notif">
+    </Preference>
+    <Preference
+                        android:key="feedback_pref"
+                        android:title="@string/pref_feedback"/>
+    <Preference
+                        android:key="kahuna_pref"
+                        android:title="@string/pref_kahuna"
+                        android:summary="Not connected"/>
+</PreferenceScreen>

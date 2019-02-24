@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/material_dialog_background_dark"
+    android:layout_width="match_parent"
+    android:layout_height="130dp">
+        <TextView
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:gravity="center_vertical|center_horizontal"
+            android:visibility="visible"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:text="Signing In" />
+
+        <TextView
+            android:id="@+id/dialog_cancel_signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="85dp"
+            android:background="@drawable/ripple_rectangle_lighttheme"
+            android:textColor="@color/action_bar_background"
+            android:textSize="23sp"
+            android:text="Cancel" />
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginLeft="200dp"
+            style="@style/AVLoadingIndicatorView"
+            android:gravity="center_vertical|center_horizontal"
+            android:visibility="visible"
+            app:indicatorName="BallPulseIndicator"
+            app:indicatorColor="@color/md_white_1000"/>
+
+</RelativeLayout>

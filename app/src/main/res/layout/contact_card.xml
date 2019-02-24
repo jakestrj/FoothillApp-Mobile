@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:clipToPadding="false"
+     android:clipChildren="false"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:background="@drawable/card_background"
+                    android:layout_centerInParent="true"
+                    android:layout_width="330dp"
+                    android:layout_height="475dp">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/infopanelcontainer"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_marginBottom="22dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/cardview_infoimg0"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="12dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="25dp"
+                android:src="@drawable/ic_marker"
+                android:onClick="cardviewRoutePhone"
+                />
+
+                    <TextView
+                        android:layout_toRightOf="@id/cardview_infoimg0"
+                        android:id="@+id/cardview_locText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="15dp"
+                        android:onClick="cardviewRoutePhone"
+                        />
+
+            <ImageView
+                android:id="@+id/cardview_infoimg1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="12dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_below="@id/cardview_infoimg0"
+                android:src="@drawable/ic_paperplane"
+                android:onClick="cardviewRouteEmail"
+                />
+
+                    <TextView
+                        android:layout_toRightOf="@id/cardview_infoimg1"
+                        android:layout_below="@id/cardview_infoimg0"
+                        android:id="@+id/cardview_emailText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:textSize="20sp"
+                        android:singleLine="true"
+                        android:ellipsize="marquee"
+                        android:marqueeRepeatLimit ="marquee_forever"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:scrollHorizontally="true"
+                        android:layout_marginTop="7dp"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="15dp"
+                        android:onClick="cardviewRouteEmail"
+                        />
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/rl_contactinfo"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_alignParentTop="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="350dp">
+
+                <!--<com.github.siyamed.shapeimageview.RoundedImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/pilvencardbackground"
+                    app:siRadius="4dip"
+                    app:siSquare="true"/>-->
+
+                <com.github.siyamed.shapeimageview.mask.PorterShapeImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:siShape="@drawable/shape_rounded_rectangle"
+                    android:src="@drawable/pilvencardbackground"
+                    app:siSquare="true"/>
+
+                <ImageView
+                    android:id="@+id/cardview_profileimage"
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    android:src="@drawable/ic_account_blank_card"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="-20dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:id="@+id/cardview_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:layout_marginBottom="-6dp"
+                    android:padding="2dp"
+                    android:textColor="@color/white"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/cardview_profileimage"/>
+
+                <TextView
+                    android:id="@+id/cardview_subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/cardview_title"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="80dp"
+                    android:textSize="19sp"
+                    android:text="@string/cardview_fullcard"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:clickable="true"
+                    android:layout_below="@id/cardview_subtitle"
+                    android:src="@drawable/ripple_rectangle_lighttheme"
+                    android:background="@drawable/cardview_beveled_button"
+                    android:onClick="cardviewRouteFullCard"/>
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="6dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/cardview_subtitle">
+
+                    <TextView
+                        android:id="@+id/cardview_tag0"
+                        android:visibility="visible"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:minWidth="40dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="17sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:background="@drawable/tag_beveled_drawable"/>
+                    <TextView
+                        android:id="@+id/cardview_tag1"
+                        android:visibility="visible"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minWidth="40dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="17sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:layout_toRightOf="@id/cardview_tag0"
+                        android:background="@drawable/tag_beveled_drawable"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/cardview_close"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitXY"
+                android:onClick="cardviewRouteExit"
+                android:src="@drawable/close_x"
+                android:layout_marginBottom="470dp"
+                android:layout_marginLeft="330dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

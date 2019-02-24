@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill_horizontal"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:id="@+id/titleText_srcView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/drawer_item_second"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:visibility="visible"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/cab_edittext"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_marginLeft="55dp"
+        android:hint="@string/listview_searchhint"
+        android:background="@color/colorPrimary">
+        <requestFocus/>
+    </EditText>
+
+    <com.novallc.foothillappmobile.searchviewanimations.JJSearchView
+        android:id="@+id/cab_jjsv"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:background="@drawable/ripple_bevel"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+    <ImageButton
+        android:id="@+id/imgB_clearTxt"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close_x"
+        android:background="@drawable/ripple_bevel"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"/>
+
+    <View
+        android:layout_width="50dp"
+        android:id="@+id/cab_jjsv_modelclick"
+        android:background="@drawable/ripple_bevel"
+        android:drawableStart="@+id/cab_edittext"
+        android:clickable="true"
+        android:visibility="gone"
+        android:layout_marginLeft="-8dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"/>
+</RelativeLayout>

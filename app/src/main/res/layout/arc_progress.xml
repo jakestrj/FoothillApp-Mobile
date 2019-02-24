@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/header_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="0dp"
+    android:gravity="center">
+
+    <com.novallc.foothillappmobile.circularprogress.ArcProgress xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ArcProgress="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/arc_progress"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        ArcProgress:arc_text_color="@color/md_white_1000"
+        ArcProgress:arc_bottom_text_size="9sp"
+        ArcProgress:arc_bottom_text="REMAINING TIME"
+        ArcProgress:arc_suffix_text=" min"
+        ArcProgress:arc_finished_color="#FCCF0D"
+        ArcProgress:arc_unfinished_color="#3F3D39"
+        ArcProgress:arc_stroke_width="7dp"/>
+
+    <TextView android:id="@+id/period_indicator"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textColor="@color/material_drawer_dark_selected_text"
+        android:textSize="14sp"
+        android:text="Period"
+        android:gravity="left"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_toLeftOf="@id/arc_progress">
+    </TextView>
+
+            <TextView android:id="@+id/period_content"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/md_grey_400"
+                android:textSize="20sp"
+                android:text=""
+                android:textAlignment="center"
+                android:layout_marginLeft="0dp"
+                android:layout_alignParentRight="true"
+                android:gravity="left">
+            </TextView>
+
+    <TextView android:id="@+id/schedule_indicator"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textColor="@color/material_drawer_dark_selected_text"
+        android:textSize="14sp"
+        android:text="Schedule"
+        android:gravity="right"
+        android:layout_toRightOf="@id/arc_progress"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+    </TextView>
+            <TextView android:id="@+id/schedule_content"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="@color/md_grey_400"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text=""
+                android:layout_marginRight="18dp"
+                android:layout_alignParentRight="true"
+                android:gravity="right">
+            </TextView>
+
+    <TextView android:id="@+id/passingsession_indicator"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textColor="@color/md_grey_400"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:text="@string/arc_passingsession"
+        android:gravity="center"
+        android:layout_marginTop="185dp"/>
+
+    <TextView android:id="@+id/header_title"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textColor="@color/md_grey_400"
+        android:textSize="25sp"
+        android:text="Foothill Mobile"
+        android:gravity="left"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"/>
+        <ImageButton
+            android:id="@+id/bDrawerClose"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="265dp"
+            android:onClick=""
+            android:src="@drawable/ic_hamburger"
+            android:background="@drawable/ripple_bevel" />
+        <ImageButton
+            android:id="@+id/bHelpAbbrevs"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:onClick=""
+            android:src="@drawable/ic_question_mark"
+            android:background="@drawable/ripple_bevel" />
+        <TextView android:id="@+id/session_indicator"
+            android:layout_height="match_parent"
+            android:layout_width="fill_parent"
+            android:textColor="@color/md_grey_400"
+            android:textSize="25sp"
+            android:text=""
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="93dp"/>
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/progress_serviceStart"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="93dp"
+            android:layout_centerHorizontal="true"
+            style="@style/AVLoadingIndicatorView"
+            android:background="@drawable/progressanim_background"
+            app:indicatorName="LineScalePulseOutIndicator"
+            app:indicatorColor="@color/md_white_1000"/>
+
+</RelativeLayout>

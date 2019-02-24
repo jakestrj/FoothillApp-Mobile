@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+    <string-array name="t_names">
+        <item>Bennett, Dawn</item>
+        <item>Chung, Elizabeth</item>
+        <item>Coulter, Rob</item>
+        <item>Dang, Kim	</item>
+        <item>Furniss, Erica</item>
+        <item>Giem, Sara (EL)</item>
+        <item>Hermanson, Josh</item>
+        <item>Hershberger, Trevor</item>
+        <item>McDermott, Joanne</item>
+        <item>Owens, Vicki (IB)</item>
+        <item>Pflueger, Sarah</item>
+        <item>Scott, Jan</item>
+        <item>Stebbins, Melinda</item>
+        <item>Subherwal, Chanderika</item>
+        <item>Sun, Tiffanie</item>
+        <item>Womack Williams, Lily</item>
+        <item>Wright, Jeff</item>
+        <item>Alejo, Steven</item>
+        <item>Fisher, Kendra</item>
+        <item>Galeano Mejia, Ingrid	</item>
+        <item>Isselnane, Rezki	</item>
+        <item>Kerch, Glen	</item>
+        <item>Larson, Vicky	</item>
+        <item>Michalak, Martha	</item>
+        <item>Pallares, Jose	</item>
+        <item>Plunkett, Stella	</item>
+        <item>Stein, Samantha	</item>
+        <item>Bell, Steve	</item>
+        <item>Bohen, Mike	</item>
+        <item>Chu, Lily	</item>
+        <item>Davis, Peter	</item>
+        <item>Duesler, Becky	</item>
+        <item>Farr, Jeff	</item>
+        <item>Goldman, Ross	</item>
+        <item>Goto, Matt	</item>
+        <item>Hays, Robert	</item>
+        <item>Holding, Tina	</item>
+        <item>Kendall, Sharon	</item>
+        <item>Montgomery, Katie	</item>
+        <item>Myung, John	</item>
+        <item>Paul, Jason	</item>
+        <item>Phillips, Jenna	</item>
+        <item>Spangler, Katherine	</item>
+        <item>Surak, Lacey	</item>
+        <item>Brown, Vince	</item>
+        <item>Case, Doug	</item>
+        <item>Hagstrom, Melanie	</item>
+        <item>Ahlberg, Mark	</item>
+        <item>Biller, Gypsy	</item>
+        <item>Brumm, Jim  	</item>
+        <item>Chulapatrcheevin, Vanessa	</item>
+        <item>Falkin, Jason	</item>
+        <item>Fishel, Gary	</item>
+        <item>Hepinger, Ed	</item>
+        <item>Ivory, Christine (CSF)	</item>
+        <item>Kim, Joy	</item>
+        <item>Leslie, Gregg	</item>
+        <item>Murashige, Catherine	</item>
+        <item>Rizza, Maggie	</item>
+        <item>Roundy, Paul	</item>
+        <item>Winings, Sky		</item>
+        <item>Crow, Dean	</item>
+        <item>Dale, Monique	</item>
+        <item>Goto, Katie	</item>
+        <item>Hake, Chris	</item>
+        <item>Hepinger, Nicole	</item>
+        <item>Hobbs, Sean	</item>
+        <item>Kavigan, Roger	</item>
+        <item>Knowlton, Megan	</item>
+        <item>Lee, Mike	</item>
+        <item>McKinley, Rick	</item>
+        <item>Miller, Ali	</item>
+        <item>Namba, Vince	</item>
+        <item>Timm, Robert	</item>
+        <item>Waibel, David	</item>
+        <item>Cassidy, Dina	</item>
+        <item>Crumrine, Laurie	</item>
+        <item>Dawson, Kathy	</item>
+        <item>Marcigliano, Don	</item>
+        <item>Monaster, Caren	</item>
+        <item>Powers, Maureen	</item>
+        <item>Sanchez, Alex	</item>
+        <item>Singletary, David	</item>
+        <item>Wager, Brian	</item>
+        <item>Abrams, June	</item>
+        <item>Ausa, Rose Marie	</item>
+        <item>Caldwell, Russ	</item>
+        <item>Dehn, Chelsea	</item>
+        <item>Farr, Debbie</item>
+        <item>Gillette, Jeff</item>
+        <item>Manasas, Brianna	</item>
+        <item>Miner, Bob	</item>
+        <item>Price, Chris	</item>
+        <item>Shell, Dan	</item>
+        <item>Thomas, Tim	</item>
+
+        <item>Williams, Dr. Mike</item>
+        <item>Hernandez, Adam</item>
+        <item>England, Michelle</item>
+        <item>Nye ED. D., Cheli</item>
+
+        <item>McGinis, Julie</item>
+        <item>Willie, Bev</item>
+        <item>Hermanson, Lisa</item>
+        <item>Emaguna, John</item>
+        <item>Bonds, Jeff</item>
+        <item>Sawczuk, Debby</item>
+        <item>Haidar, Cathy</item>
+        <item>Duran, Theresa</item>
+    </string-array>
+    <string-array name="t_email">
+        <item>dbennett@tustin.k12.ca.us</item>
+        <item>echung@tustin.k12.ca.us</item>
+        <item>rcoulter@tustin.k12.ca.us</item>
+        <item>kdang@tustin.k12.ca.us</item>
+        <item>efurniss@tustin.k12.ca.us</item>
+        <item>sgiem@tustin.k12.ca.us</item>
+        <item>jhermanson@tustin.k12.ca.us</item>
+        <item>thershberger@tustin.k12.ca.us</item>
+        <item>jmcdermott@tustin.k12.ca.us </item>
+        <item>vowens@tustin.k12.ca.us</item>
+        <item>spflueger@tustin.k12.ca.us</item>
+        <item>jscott@tustin.k12.ca.us</item>
+        <item>mstebbins@tustin.k12.ca.us</item>
+        <item>csubherwal@tustin.k12.ca.us</item>
+        <item>tsun@tustin.k12.ca.us</item>
+        <item>lwilliams@tustin.k12.ca.us</item>
+        <item>jwright@tustin.k12.ca.us</item>
+        <item>salejo@tustin.k12.ca.us</item>
+        <item>kfisher@tustin.k12.ca.us</item>
+        <item>igaleanomejia@tustin.k12.ca.us</item>
+        <item>risselnane@tustin.k12.ca.us</item>
+        <item>gkerch@tustin.k12.ca.us</item>
+        <item>vlarson@tustin.k12.ca.us</item>
+        <item>mfarrellmichalak@tustin.k12.ca.us</item>
+        <item>jpallares@tustin.k12.ca.us</item>
+        <item>splunkett@tustin.k12.ca.us</item>
+        <item>sstein@tustin.k12.ca.us</item>
+        <item>sbell@tustin.k12.ca.us</item>
+        <item>mbohen@tustin.k12.ca.us</item>
+        <item>lchu@tustin.k12.ca.us</item>
+        <item>pdavis@tustin.k12.ca.us</item>
+        <item>bduesler@tustin.k12.ca.us</item>
+        <item>jfarr@tustin.k12.ca.us</item>
+        <item>rgoldman@tustin.k12.ca.us</item>
+        <item>mgoto@tustin.k12.ca.us</item>
+        <item>rhays@tustin.k12.ca.us</item>
+        <item>tholding@tustin.k12.ca.us</item>
+        <item>skendall@tustin.k12.ca.us</item>
+        <item>kmontgomery@tustin.k12.ca.us</item>
+        <item>jmyung@tustin.k12.ca.us</item>
+        <item>jpaul@tustin.k12.ca.us</item>
+        <item>jphillips@tustin.k12.ca.us</item>
+        <item>kspangler@tustin.k12.ca.us</item>
+        <item>lsurak@tustin.k12.ca.us</item>
+        <item>vbrown@tustin.k12.ca.us</item>
+        <item>dcase@tustin.k12.ca.us</item>
+        <item>mhagstrom@tustin.k12.ca.us</item>
+        <item>mahlberg@tustin.k12.ca.us</item>
+        <item>gbiller@tustin.k12.ca.us</item>
+        <item>jbrumm@tustin.k12.ca.us</item>
+        <item>vchulapatrcheevin@tustin.k12.ca.us</item>
+        <item>jfalkin@tustin.k12.ca.us</item>
+        <item>gfishel@tustin.k12.ca.us</item>
+        <item>ehepinger@tustin.k12.ca.us</item>
+        <item>civory@tustin.k12.ca.us</item>
+        <item>jkim@tustin.k12.ca.us</item>
+        <item>gleslie@tustin.k12.ca.us</item>
+        <item>cmurashige@tustin.k12.ca.us</item>
+        <item>mrizza@tustin.k12.ca.us</item>
+        <item>proundy@tustin.k12.ca.us</item>
+        <item>swinings@tustin.k12.ca.us</item>
+        <item>dcrow@tustin.k12.ca.us</item>
+        <item>ddale@tustin.k12.ca.us</item>
+        <item>kgoto@tustin.k12.ca.us</item>
+        <item>chake@tustin.k12.ca.us</item>
+        <item>nhepinger@tustin.k12.ca.us</item>
+        <item>shobbs@tustin.k12.ca.us</item>
+        <item>rkavigan@tustin.k12.ca.us</item>
+        <item>mknowlton@tustin.k12.ca.us</item>
+        <item>mlee@tustin.k12.ca.us</item>
+        <item>rmckinley@tustin.k12.ca.us</item>
+        <item>amiller@tustin.k12.ca.us</item>
+        <item>vnamba@tustin.k12.ca.us</item>
+        <item>rtimm@tustin.k12.ca.us</item>
+        <item>dwaibel@tustin.k12.ca.us</item>
+        <item>dcassidy@tustin.k12.ca.us</item>
+        <item>lcrumrine@tustin.k12.ca.us</item>
+        <item>kdawson@tustin.k12.ca.us</item>
+        <item>dmarcigliano@tustin.k12.ca.us</item>
+        <item>cmonaster@tustin.k12.ca.us</item>
+        <item>mpowers@tustin.k12.ca.us</item>
+        <item>asanchez@tustin.k12.ca.us</item>
+        <item>dsingletary@tustin.k12.ca.us</item>
+        <item>bwager@tustin.k12.ca.us</item>
+        <item>jabrams@tustin.k12.ca.us</item>
+        <item>rausa@tustin.k12.ca.us</item>
+        <item>rcaldwell@tustin.k12.ca.us</item>
+        <item>cdehn@tustin.k12.ca.us</item>
+        <item>dfarr@tustin.k12.ca.us</item>
+        <item>jgillette@tustin.k12.ca.us</item>
+        <item>bmanasas@tustin.k12.ca.us</item>
+        <item>rminer@tustin.k12.ca.us</item>
+        <item>cjprice@tustin.k12.ca.us</item>
+        <item>dshell@tustin.k12.ca.us</item>
+        <item>tthomas@tustin.k12.ca.us</item>
+
+        <item>mwilliams@tustin.k12.ca.us</item>
+        <item>aghernandez@tustin.k12.ca.us</item>
+        <item>mengland@tustin.k12.ca.us</item>
+        <item>mnye@tustin.k12.ca.us</item>
+
+        <item>jmcginis@tustin.k12.ca.us</item>
+        <item>bwillie@tustin.k12.ca.us</item>
+        <item>lhermanson@tustin.k12.ca.us</item>
+        <item>jemaguna@tustin.k12.ca.us</item>
+        <item>jbonds@tustin.k12.ca.us</item>
+        <item>dsawczuk@tustin.k12.ca.us</item>
+        <item>chaidar@tustin.k12.ca.us</item>
+        <item>tduran@tustin.k12.ca.us</item>
+    </string-array>
+    <string-array name="t_rNmber">
+        <item>105</item>
+        <item>&#8230;</item>
+        <item>108</item>
+        <item>307</item>
+        <item>127</item>
+        <item>103</item>
+        <item>107</item>
+        <item>119</item>
+        <item>113</item>
+        <item>106</item>
+        <item>101</item>
+        <item>114</item>
+        <item>312</item>
+        <item>112</item>
+        <item>306</item>
+        <item>720</item>
+        <item>123</item>
+        <item>212</item>
+        <item>214</item>
+        <item>727</item>
+        <item>216</item>
+        <item>215</item>
+        <item>211</item>
+        <item>213</item>
+        <item>204</item>
+        <item>208</item>
+        <item>220</item>
+        <item>707</item>
+        <item>722</item>
+        <item>720</item>
+        <item>&#8230;</item>
+        <item>201</item>
+        <item>402</item>
+        <item>729</item>
+        <item>723</item>
+        <item>721</item>
+        <item>718</item>
+        <item>203</item>
+        <item>202</item>
+        <item>219</item>
+        <item>207</item>
+        <item>206</item>
+        <item>730</item>
+        <item>205</item>
+        <item>411</item>
+        <item>624</item>
+        <item>410</item>
+        <item>514</item>
+        <item>509</item>
+        <item>506</item>
+        <item>505</item>
+        <item>504</item>
+        <item>507</item>
+        <item>512</item>
+        <item>508</item>
+        <item>503</item>
+        <item>513</item>
+        <item>502</item>
+        <item>501</item>
+        <item>511</item>
+        <item>&#8230;</item>
+        <item>728</item>
+        <item>121</item>
+        <item>308</item>
+        <item>719</item>
+        <item>122</item>
+        <item>309</item>
+        <item>116</item>
+        <item>110</item>
+        <item>314</item>
+        <item>117</item>
+        <item>726</item>
+        <item>120</item>
+        <item>111</item>
+        <item>401</item>
+        <item>530</item>
+        <item>109</item>
+        <item>528</item>
+        <item>313</item>
+        <item>109</item>
+        <item>310</item>
+        <item>316</item>
+        <item>305</item>
+        <item>209</item>
+        <item>217</item>
+        <item>408</item>
+        <item>301</item>
+        <item>406</item>
+        <item>218</item>
+        <item>405</item>
+        <item>115</item>
+        <item>409</item>
+        <item>404</item>
+        <item>311</item>
+        <item>407</item>
+
+        <item>602</item>
+        <item>604</item>
+        <item>605</item>
+        <item>607</item>
+
+        <item>&#8230;</item>
+        <item>&#8230;</item>
+        <item>&#8230;</item>
+        <item>&#8230;</item>
+        <item>&#8230;</item>
+        <item>&#8230;</item>
+        <item>&#8230;</item>
+        <item>&#8230;</item>
+    </string-array>
+    <string-array name="t_clsLocation">
+        <item>502, 699</item>
+        <item>0, 0</item>
+        <item>427, 652</item>
+        <item>729, 443</item>
+        <item>551, 648</item>
+        <item>590, 699</item>
+        <item>433, 701</item>
+        <item>639, 549</item>
+        <item>455, 616</item>
+        <item>470, 699</item>
+        <item>662, 699</item>
+        <item>545, 653</item>
+        <item>804, 351</item>
+        <item>455, 567</item>
+        <item>767, 444</item>
+        <item>545, 138</item>
+        <item>664, 653</item>
+        <item>501, 342</item>
+        <item>508, 250</item>
+        <item>49, 344</item>
+        <item>618, 343</item>
+        <item>480, 242</item>
+        <item>467, 346</item>
+        <item>502, 295</item>
+        <item>568, 198</item>
+        <item>448, 244</item>
+        <item>620, 241</item>
+        <item>649, 135</item>
+        <item>456, 137</item>
+        <item>546, 139</item>
+        <item>0, 0</item>
+        <item>661, 196</item>
+        <item>260, 290</item>
+        <item>49, 344</item>
+        <item>423, 139</item>
+        <item>511, 136</item>
+        <item>613, 137</item>
+        <item>600, 198</item>
+        <item>631, 198</item>
+        <item>658, 242</item>
+        <item>448, 197</item>
+        <item>481, 198</item>
+        <item>52, 343</item>
+        <item>511, 198</item>
+        <item>327, 155</item>
+        <item>213, 569</item>
+        <item>362, 144</item>
+        <item>803, 131</item>
+        <item>790, 39</item>
+        <item>868, 279</item>
+        <item>928, 280</item>
+        <item>928, 214</item>
+        <item>866, 131</item>
+        <item>925, 131</item>
+        <item>724, 26</item>
+        <item>865, 201</item>
+        <item>864, 128</item>
+        <item>796, 188</item>
+        <item>728, 176</item>
+        <item>925, 65</item>
+        <item>0, 0</item>
+        <item>50, 346</item>
+        <item>664, 585</item>
+        <item>729, 395</item>
+        <item>580, 136</item>
+        <item>664, 619</item>
+        <item>730, 368</item>
+        <item>639, 653</item>
+        <item>427, 583</item>
+        <item>768, 396</item>
+        <item>637, 616</item>
+        <item>52, 347</item>
+        <item>665, 548</item>
+        <item>427, 545</item>
+        <item>215, 288</item>
+        <item>0, 0</item>
+        <item>427, 616</item>
+        <item>0, 0</item>
+        <item>769, 370</item>
+        <item>428, 616</item>
+        <item>843, 396</item>
+        <item>0, 0</item>
+        <item>806, 442</item>
+        <item>447, 299</item>
+        <item>661, 333</item>
+        <item>389, 282</item>
+        <item>730, 472</item>
+        <item>337, 334</item>
+        <item>637, 268</item>
+        <item>341, 287</item>
+        <item>498, 562</item>
+        <item>363, 168</item>
+        <item>332, 247</item>
+        <item>843, 357</item>
+        <item>388, 339</item>
+        <item>789, 535</item>
+        <item>789, 535</item>
+        <item>789, 535</item>
+        <item>789, 535</item>
+        <item>789, 535</item>
+        <item>789, 535</item>
+        <item>789, 535</item>
+        <item>789, 535</item>
+        <item>789, 535</item>
+        <item>789, 535</item>
+        <item>789, 535</item>
+        <item>789, 535</item>
+    </string-array>
+    <string-array name="t_rDescription">
+        <item>Teacher in English Division</item>
+        <item>Teacher in English Division</item>
+        <item>Teacher in English Division</item>
+        <item>Teacher in English Division</item>
+        <item>Teacher in English Division</item>
+        <item>Teacher in English Division</item>
+        <item>Teacher in English Division</item>
+        <item>Teacher in English Division</item>
+        <item>Teacher in English Division</item>
+        <item>Teacher in English Division</item>
+        <item>Teacher in English Division</item>
+        <item>Teacher in English Division</item>
+        <item>Teacher in English Division</item>
+        <item>Teacher in English Division</item>
+        <item>Teacher in English Division</item>
+        <item>Teacher in English Division</item>
+        <item>Teacher in English Division</item>
+        <item>Teacher of Foreign Language</item>
+        <item>Teacher of Foreign Language</item>
+        <item>Teacher of Foreign Language</item>
+        <item>Teacher of Foreign Language</item>
+        <item>Teacher of Foreign Language</item>
+        <item>Teacher of Foreign Language</item>
+        <item>Teacher of Foreign Language</item>
+        <item>Teacher of Foreign Language</item>
+        <item>Teacher of Foreign Language</item>
+        <item>Teacher of Foreign Language</item>
+        <item>Mathematics Teacher</item>
+        <item>Mathematics Teacher</item>
+        <item>Mathematics Teacher</item>
+        <item>Mathematics Teacher</item>
+        <item>Mathematics Teacher</item>
+        <item>Mathematics Teacher</item>
+        <item>Mathematics Teacher</item>
+        <item>Mathematics Teacher</item>
+        <item>Mathematics Teacher</item>
+        <item>Mathematics Teacher</item>
+        <item>Mathematics Teacher</item>
+        <item>Mathematics Teacher</item>
+        <item>Mathematics Teacher</item>
+        <item>Mathematics Teacher</item>
+        <item>Mathematics Teacher</item>
+        <item>Mathematics Teacher</item>
+        <item>Mathematics Teacher</item>
+        <item>Physical Education Teacher</item>
+        <item>Physical Education Teacher</item>
+        <item>Physical Education Teacher</item>
+        <item>Teacher in Science Division</item>
+        <item>Teacher in Science Division</item>
+        <item>Teacher in Science Division</item>
+        <item>Teacher in Science Division</item>
+        <item>Teacher in Science Division</item>
+        <item>Teacher in Science Division</item>
+        <item>Teacher in Science Division</item>
+        <item>Teacher in Science Division</item>
+        <item>Teacher in Science Division</item>
+        <item>Teacher in Science Division</item>
+        <item>Teacher in Science Division</item>
+        <item>Teacher in Science Division</item>
+        <item>Teacher in Science Division</item>
+        <item>Teacher in Science Division</item>
+        <item>History Teacher</item>
+        <item>History Teacher</item>
+        <item>History Teacher</item>
+        <item>History Teacher</item>
+        <item>History Teacher</item>
+        <item>History Teacher</item>
+        <item>History Teacher</item>
+        <item>History Teacher</item>
+        <item>History Teacher</item>
+        <item>History Teacher</item>
+        <item>History Teacher</item>
+        <item>History Teacher</item>
+        <item>History Teacher</item>
+        <item>History Teacher</item>
+        <item>Member of Special Education Division</item>
+        <item>Member of Special Education Division</item>
+        <item>Member of Special Education Division</item>
+        <item>Member of Special Education Division</item>
+        <item>Member of Special Education Division</item>
+        <item>Member of Special Education Division</item>
+        <item>Member of Special Education Division</item>
+        <item>Member of Special Education Division</item>
+        <item>Member of Special Education Division</item>
+        <item>Teacher in Visual/Perf. Arts Division</item>
+        <item>Teacher in Visual/Perf. Arts Division</item>
+        <item>Teacher in Visual/Perf. Arts Division</item>
+        <item>Teacher in Visual/Perf. Arts Division</item>
+        <item>Teacher in Visual/Perf. Arts Division</item>
+        <item>Teacher in Visual/Perf. Arts Division</item>
+        <item>Teacher in Visual/Perf. Arts Division</item>
+        <item>Teacher in Visual/Perf. Arts Division</item>
+        <item>Teacher in Visual/Perf. Arts Division</item>
+        <item>Teacher in Visual/Perf. Arts Division</item>
+        <item>Teacher in Visual/Perf. Arts Division</item>
+
+        <item>Principal of FHS</item>
+        <item>Assistant Principal</item>
+        <item>Assistant Principal</item>
+        <item>Assistant Principal</item>
+
+        <item>Counselor (10\u201312) | A \u2013 D</item>
+        <item>Counselor (10\u201312) | E \u2013 Le</item>
+        <item>Counselor (10\u201312) | Li \u2013 Ri</item>
+        <item>Counselor (10\u201312) | Ro \u2013 Z</item>
+        <item>Freshman Support Counselor</item>
+        <item>College and Career Counselor</item>
+        <item>Registrar and Transcripts</item>
+        <item>Counseling Secretary</item>
+    </string-array>
+    <string-array name="t_tag0">
+        <item>ENG</item>
+        <item>ENG</item>
+        <item>ENG</item>
+        <item>ENG</item>
+        <item>ENG</item>
+        <item>ENG</item>
+        <item>ENG</item>
+        <item>ENG</item>
+        <item>ENG</item>
+        <item>ENG</item>
+        <item>ENG</item>
+        <item>ENG</item>
+        <item>ENG</item>
+        <item>ENG</item>
+        <item>ENG</item>
+        <item>ENG</item>
+        <item>ENG</item>
+        <item>FL</item>
+        <item>FL</item>
+        <item>FL</item>
+        <item>FL</item>
+        <item>FL</item>
+        <item>FL</item>
+        <item>FL</item>
+        <item>FL</item>
+        <item>FL</item>
+        <item>FL</item>
+        <item>MATH</item>
+        <item>MATH</item>
+        <item>MATH</item>
+        <item>MATH</item>
+        <item>MATH</item>
+        <item>MATH</item>
+        <item>MATH</item>
+        <item>MATH</item>
+        <item>MATH</item>
+        <item>MATH</item>
+        <item>MATH</item>
+        <item>MATH</item>
+        <item>MATH</item>
+        <item>MATH</item>
+        <item>MATH</item>
+        <item>MATH</item>
+        <item>MATH</item>
+        <item>PE</item>
+        <item>PE</item>
+        <item>PE</item>
+        <item>SCI</item>
+        <item>SCI</item>
+        <item>SCI</item>
+        <item>SCI</item>
+        <item>SCI</item>
+        <item>SCI</item>
+        <item>SCI</item>
+        <item>SCI</item>
+        <item>SCI</item>
+        <item>SCI</item>
+        <item>SCI</item>
+        <item>SCI</item>
+        <item>SCI</item>
+        <item>SCI</item>
+        <item>SS/HIS</item>
+        <item>SS/HIS</item>
+        <item>SS/HIS</item>
+        <item>SS/HIS</item>
+        <item>SS/HIS</item>
+        <item>SS/HIS</item>
+        <item>SS/HIS</item>
+        <item>SS/HIS</item>
+        <item>SS/HIS</item>
+        <item>SS/HIS</item>
+        <item>SS/HIS</item>
+        <item>SS/HIS</item>
+        <item>SS/HIS</item>
+        <item>SS/HIS</item>
+        <item>Special Ed.</item>
+        <item>Special Ed.</item>
+        <item>Special Ed.</item>
+        <item>Special Ed.</item>
+        <item>Special Ed.</item>
+        <item>Special Ed.</item>
+        <item>Special Ed.</item>
+        <item>Special Ed.</item>
+        <item>Special Ed.</item>
+        <item>TE</item>
+        <item>TE</item>
+        <item>TE</item>
+        <item>TE</item>
+        <item>TE</item>
+        <item>TE</item>
+        <item>TE</item>
+        <item>TE</item>
+        <item>TE</item>
+        <item>TE</item>
+        <item>TE</item>
+
+        <item>Admin</item>
+        <item>Admin</item>
+        <item>Admin</item>
+        <item>Admin</item>
+
+        <item>COUNS</item>
+        <item>COUNS</item>
+        <item>COUNS</item>
+        <item>COUNS</item>
+        <item>COUNS</item>
+        <item>COUNS</item>
+        <item>RGSTR</item>
+        <item>COUNS</item>
+    </string-array>
+    <string-array name="t_tag1">
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>EL</item>
+        <item>Chair</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>IB</item>
+        <item>nil</item>
+        <item>Chair</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>Chair</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>Chair</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>Chair</item>
+        <item>nil</item>
+        <item>Chair</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>Chair</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>Chair</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>Chair</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>Chair</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>Chair</item>
+        <item>Chair</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+
+        <item>PRIN</item>
+        <item>ASST</item>
+        <item>ASST</item>
+        <item>ASST</item>
+
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+        <item>nil</item>
+    </string-array>
+    <string-array name="t_division">
+        <item>English Division</item>
+        <item>English Division</item>
+        <item>English Division</item>
+        <item>English Division</item>
+        <item>English Division</item>
+        <item>English Division</item>
+        <item>English Division</item>
+        <item>English Division</item>
+        <item>English Division</item>
+        <item>English Division</item>
+        <item>English Division</item>
+        <item>English Division</item>
+        <item>English Division</item>
+        <item>English Division</item>
+        <item>English Division</item>
+        <item>English Division</item>
+        <item>English Division</item>
+        <item>Foreign Language Division</item>
+        <item>Foreign Language Division</item>
+        <item>Foreign Language Division</item>
+        <item>Foreign Language Division</item>
+        <item>Foreign Language Division</item>
+        <item>Foreign Language Division</item>
+        <item>Foreign Language Division</item>
+        <item>Foreign Language Division</item>
+        <item>Foreign Language Division</item>
+        <item>Foreign Language Division</item>
+        <item>Mathematics Division</item>
+        <item>Mathematics Division</item>
+        <item>Mathematics Division</item>
+        <item>Mathematics Division</item>
+        <item>Mathematics Division</item>
+        <item>Mathematics Division</item>
+        <item>Mathematics Division</item>
+        <item>Mathematics Division</item>
+        <item>Mathematics Division</item>
+        <item>Mathematics Division</item>
+        <item>Mathematics Division</item>
+        <item>Mathematics Division</item>
+        <item>Mathematics Division</item>
+        <item>Mathematics Division</item>
+        <item>Mathematics Division</item>
+        <item>Mathematics Division</item>
+        <item>Mathematics Division</item>
+        <item>Physical Education Division</item>
+        <item>Physical Education Division</item>
+        <item>Physical Education Division</item>
+        <item>Science Division</item>
+        <item>Science Division</item>
+        <item>Science Division</item>
+        <item>Science Division</item>
+        <item>Science Division</item>
+        <item>Science Division</item>
+        <item>Science Division</item>
+        <item>Science Division</item>
+        <item>Science Division</item>
+        <item>Science Division</item>
+        <item>Science Division</item>
+        <item>Science Division</item>
+        <item>Science Division</item>
+        <item>Science Division</item>
+        <item>Social Science Division</item>
+        <item>Social Science Division</item>
+        <item>Social Science Division</item>
+        <item>Social Science Division</item>
+        <item>Social Science Division</item>
+        <item>Social Science Division</item>
+        <item>Social Science Division</item>
+        <item>Social Science Division</item>
+        <item>Social Science Division</item>
+        <item>Social Science Division</item>
+        <item>Social Science Division</item>
+        <item>Social Science Division</item>
+        <item>Social Science Division</item>
+        <item>Social Science Division</item>
+        <item>Special Education Division</item>
+        <item>Special Education Division</item>
+        <item>Special Education Division</item>
+        <item>Special Education Division</item>
+        <item>Special Education Division</item>
+        <item>Special Education Division</item>
+        <item>Special Education Division</item>
+        <item>Special Education Division</item>
+        <item>Special Education Division</item>
+        <item>Technical Education Division</item>
+        <item>Technical Education Division</item>
+        <item>Technical Education Division</item>
+        <item>Technical Education Division</item>
+        <item>Technical Education Division</item>
+        <item>Technical Education Division</item>
+        <item>Technical Education Division</item>
+        <item>Technical Education Division</item>
+        <item>Technical Education Division</item>
+        <item>Technical Education Division</item>
+        <item>Technical Education Division</item>
+
+        <item>Administration - Principal</item>
+        <item>Administration - Assistant Principal</item>
+        <item>Administration - Assistant Principal</item>
+        <item>Administration - Assistant Principal</item>
+
+        <item>Counseling</item>
+        <item>Counseling</item>
+        <item>Counseling</item>
+        <item>Counseling</item>
+        <item>Counseling</item>
+        <item>Counseling</item>
+        <item>Counseling</item>
+        <item>Counseling</item>
+    </string-array>
+</resources>

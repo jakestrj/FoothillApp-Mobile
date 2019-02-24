@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "953935835823",
+    "project_id": "foothill-hs-mobile"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953935835823:android:51e4919bb6289ddb",
+        "android_client_info": {
+          "package_name": "com.novallc.foothillappmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyR3kpC55Mtsjw72n7vikvpAQDmNdJjnU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

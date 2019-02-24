@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.novallc.foothillappmobile">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+
+
+    <application
+        android:name=".activity.util.ConnectivityClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MaterialThemeCustom"
+        tools:replace="android:icon">
+        <receiver
+            android:name=".activity.util.ConnectivityReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".activity.AutoStartReciever">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/drawer_item_first"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialDrawerTheme.TranslucentStatus"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
+
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+
+        <activity
+            android:name=".activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme_Splash"
+            android:configChanges="keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.ListViewAssets.Contact_detailList"
+            android:label=".activity.Contact_detailList"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialThemeCustom.Base">
+        </activity>
+
+        <activity
+            android:name=".activity.ListViewAssets.Contact_cardView"
+            android:label=".activity.Contact_cardView"
+            android:theme="@style/Theme.Transparent"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.WebViewActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <service
+            android:name=".activity.DrawerHeaderUpdater"
+            android:exported="false" />
+
+        <service
+            android:name=".activity.NotifUpdater"
+            android:exported="false" />
+
+        <activity
+            android:name=".activity.Login_anim"
+            android:screenOrientation="portrait"
+            android:label=".activity.login_anim" />
+
+        <activity
+            android:name=".activity.HomePreferenceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialDrawerTheme"
+            android:label=".activity.preferenceactivity" />
+        <activity
+            android:name=".activity.NotificationActivity"
+            android:label=".activity.notificationactivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialDrawerTheme"/>
+
+        <activity
+            android:name=".activity.YoutubeRecyclerView.YouTubeActivity"
+            android:label=".activity.youtubeactivity"
+            android:theme="@style/MaterialTheme.ActionBar"/>
+
+        <activity
+            android:name=".activity.IntroActivity"
+            android:label=".activity.introactivity"/>
+
+        <!--<receiver android:name="com.kahuna.sdk.KahunaCoreReceiver" />
+        <receiver android:name="com.kahuna.sdk.KahunaPushReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.kahuna.sdk.KahunaPushService" />-->
+
+    </application>
+
+</manifest>

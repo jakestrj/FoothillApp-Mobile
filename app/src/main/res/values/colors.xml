@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#31343d</color>
+    <color name="colorPrimaryDark">#31343d</color> <!--#4b4b56-->
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#4b4b56</color>
+    <color name="colorAccent">#c8e8ff</color>
+    <color name="colorStatusBar">#fdca56</color> <!--#AA7208-->
+    <color name="color_tabIndicator">#fdca56</color>
+
+    <!--Drawer only and overrides-->
+    <color name="material_drawer_selected_text">#536EEA</color>
+    <color name="material_drawer_dark_selected_text">#FCCF0D</color>
+    <color name="material_yellow_accent">#FCCF0D</color>
+    <color name="material_fragment_background">#424242</color>
+    <color name="material_search_view_background">#41484F</color>
+    <color name="material_expandedview_background">#4B4B56</color>
+    <color name="material_dialog_background_dark">#1d1c1b</color>
+    <color name="material_fragment_listview_background">#3b3b47</color>
+
+    <color name="bg_actionbar">#3f51b5</color>
+    <color name="pink_transparent">#aa700d39</color>
+    <color name="green_transparent">#aa375a1f</color>
+    <color name="blue_transparent">#aa293576</color>
+    <color name="red_transparent">#aa7f3907</color>
+    <color name="purple_transparent">#aa432677</color>
+    <color name="grey_transparent">#aa808080</color>
+    <color name="holo_red_light_transparent">#aaff4444</color>
+    <color name="submit_request_background">#de4c4a</color>
+    <color name="create_new_request">#de4c4a</color>
+    <color name="create_new_selected">#973130</color>
+
+    <color name="black">#ff000000</color>
+    <color name="maps">#ff294c98</color>
+    <color name="maps_status_bar">#ff1f3972</color>
+    <color name="white">#ffffffff</color>
+
+    <color name="accent">#eeff41</color>
+    <color name="accentLight">#F4FF81</color>
+    <color name="contact_detail_background">#eeeeee</color>
+    <color name="contact_fab_background">#8cc65a</color>
+    <color name="undo_fab_background">#4b4b56</color>
+    <color name="contact_row_icon">#949494</color>
+    <color name="contact_favorite_icon_colow">#ff2a2a</color>
+
+    <color name="yellow_accent">#FCCF0D</color>
+    <color name="detail_yellow_accent">#AA7208</color>
+    <color name="colorYellowInset">#e7b951</color>
+
+    <color name="main_activity_divider">#5559a62a</color>
+    <color name="action_bar_background">#ff007597</color>
+    <color name="brown">@color/action_bar_background</color>
+    <color name="divider_color">#fffaaf40</color>
+    <color name="white_10_percent">#1affffff</color>
+    <color name="white_20_percent">#33ffffff</color>
+    <color name="white_25_percent">#40ffffff</color>
+    <color name="white_30_percent">#4affffff</color>
+    <color name="white_75_percent">#bfffffff</color>
+    <color name="white_80_percent">#ccffffff</color>
+    <color name="white_90_percent">#e6ffffff</color>
+    <color name="dim_white">#80ffffff</color>
+    <color name="left_menu_selected">#33f7931d</color>
+    <color name="white_button_color">#ff6ea29c</color>
+    <color name="white_button_color_selected">#80a4ac9b</color>
+    <color name="start_color">#ffabe0f9</color>
+    <color name="center_color">#ff5badc8</color>
+    <color name="end_color">#ff488ba0</color>
+    <color name="progress_bar_color">#fff7931d</color>
+    <color name="red_button_100">#ffb8290b</color>
+    <color name="red_button_50">#80b8290b</color>
+    <color name="main_orange">#fffaaf40</color>
+    <color name="edittext_remember_background">#faffbd</color>
+    <color name="edittext_def_background">#62626c</color>
+    <color name="splash_message_color">#80FFFFFF</color>
+
+    <color name="ripple_opaclow_lighttheme">#4dFFFFFF</color>
+    <color name="semi_transparent_black">#90000000</color>
+
+    <!--Primary tags-->
+    <color name="tag_c_admin">#f2c500</color>
+    <color name="tag_c_art">#e94b35</color>
+    <color name="tag_c_eng">#8D6E63</color>
+    <color name="tag_c_fl">#546E7A</color>
+    <color name="tag_c_math">#d32f2f</color>
+    <color name="tag_c_pe">#9E9E9E</color>
+    <color name="tag_c_sci">#1B5E20</color>
+    <color name="tag_c_sshis">#AB47BC</color>
+    <color name="tag_c_sped">#FF4081</color>
+    <color name="tag_c_it">#44c8bb</color>
+    <color name="tag_c_couns">#2c97de</color>
+    <color name="tag_c_rgstr">#64B5F6</color>
+
+    <!--Secondary tags-->
+    <color name="tag_c_prin">#FF9800</color>
+    <color name="tag_c_asst">#FFA000</color>
+    <color name="tag_c_chair">#009688</color>
+    <color name="tag_c_el">#BDBDBD</color>
+    <color name="tag_c_ib">#FAFAFA</color>
+</resources>

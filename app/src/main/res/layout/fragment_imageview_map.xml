@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <!--<com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView-->
+            <!--android:id="@+id/imageView"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"/>-->
+
+        <Button
+            android:id="@+id/testButton"
+            android:visibility="gone"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"/>
+
+        <com.melnykov.fab.FloatingActionButton
+            android:id="@+id/fab_undo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_undo"
+            android:scaleType="centerCrop"
+            android:visibility="visible"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            app:fab_colorNormal="@color/undo_fab_background"
+            app:fab_colorPressed="@color/undo_fab_background"/>
+
+        <com.novallc.foothillappmobile.activity.util.PinView
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/progress_imageview_load"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            style="@style/AVLoadingIndicatorView"
+            android:layout_centerInParent="true"
+            android:visibility="visible"
+            app:indicatorName="LineScalePulseOutIndicator"
+            app:indicatorColor="@color/md_white_1000"/>
+
+        <RelativeLayout
+            android:id="@+id/layoutInstructionOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="@drawable/tutoverlay_background">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageTutMain"
+                    android:layout_centerInParent="true"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageTapToDismiss"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dp" />
+        </RelativeLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rLoginLayout"
+    android:background="@color/maps"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView android:id="@+id/logo"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_margin="30dp"
+        android:src="@drawable/aeries_eagle"
+        android:layout_centerInParent="true" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/LoginBox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="58dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+        <EditText
+            android:textColor="@color/black"
+            android:id="@+id/input_email"
+            android:background="@drawable/edittext_login"
+            android:drawableLeft="@drawable/ic_mail_black"
+            android:padding="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+        <EditText
+            android:textColor="@color/black"
+            android:id="@+id/input_password"
+            android:background="@drawable/edittext_login"
+            android:drawableLeft="@drawable/ic_lock"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <Button
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:id="@+id/submit"
+        android:background="@color/submit_request_background"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:text="submit"
+        android:layout_alignParentBottom="true"
+        android:onClick="" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/includeViewGroup_connectivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <include android:id="@+id/connectionView_include"
+                layout="@layout/no_connection_view"></include>
+
+        </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_required_field_email"
+        android:src="@drawable/ic_required_field"
+        android:visibility="invisible"
+        android:paddingBottom="124dp"
+        android:paddingLeft="17dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/img_required_field_password"
+        android:src="@drawable/ic_required_field"
+        android:visibility="invisible"
+        android:paddingTop="2dp"
+        android:paddingLeft="17dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/tappable_create_account_selector"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_marginTop="-44dp"
+        android:id="@+id/link_signup"
+        android:layout_below="@+id/LoginBox"
+        android:onClick="createNewAccount"
+        android:layout_width="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="@string/create_account_displaylogin" />
+
+    <CheckBox
+        android:id="@+id/saveLoginCheckBox"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-15dp"
+        android:visibility="gone"
+        android:gravity="center"
+        android:text="@string/remember_login"
+        android:layout_below="@+id/LoginBox"
+        android:buttonTint="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
+</merge>

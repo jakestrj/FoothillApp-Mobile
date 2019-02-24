@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    android:id="@+id/noConnectivityView"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="200dp"
+    android:layout_margin="36dp"
+    android:layout_centerInParent="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/no_connection_image"
+        android:background="@drawable/ic_no_connection"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="12dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textSize="24dp"
+        android:textColor="@color/md_white_1000"
+        android:id="@+id/no_connection_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="@string/no_connection_title"
+        android:layout_below="@id/no_connection_image"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textSize="15dp"
+        android:textColor="@color/md_white_1000"
+        android:gravity="center"
+        android:id="@+id/empty_view_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:text="@string/message_no_connection"
+        android:layout_below="@id/no_connection_title"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:textSize="14dp"
+        android:textColor="@color/tappable_yellow_accent_text_selector"
+        android:id="@+id/btn_try_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/ripple_rectangle"
+        android:text="@string/button_try_again"
+        android:onClick="retryConnectivity"
+        android:layout_below="@id/empty_view_text"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

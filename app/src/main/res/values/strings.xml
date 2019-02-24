@@ -1,0 +1,238 @@
+<resources>
+    <string name="app_name">FHS Mobile</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_recycler_view">Refresh</string>
+
+    <string name="one">ONE</string>
+    <string name="eight">EIGHT</string>
+    <string name="five">FIVE</string>
+    <string name="four">FOUR</string>
+    <string name="nine">NINE</string>
+    <string name="seven">SEVEN</string>
+    <string name="six">SIX</string>
+    <string name="ten">TEN</string>
+    <string name="three">THREE</string>
+    <string name="two">TWO</string>
+    <string name="title_activity_scrollable_tabs">Scrollable Tabs</string>
+    <string name="title_activity_simple_tabs">Simple Tabs</string>
+    <string name="btn_simple_tabs">Simple Tabs</string>
+    <string name="btn_scrollable_tabs">Scrollable Tabs</string>
+    <string name="btn_icon_text_tabs">Icon &amp; Text Tabs</string>
+    <string name="btn_icon_tabs">Only Icon Tabs</string>
+    <string name="btn_pinned_top_tabs">Pinned To Top Tabs</string>
+    <string name="title_activity_icon_text_tabs">Icon and Text Tabs</string>
+    <string name="title_activity_icon_tabs">Icon Tabs</string>
+    <string name="btn_custom_icon_tabs">Custom View Icon &amp; Text</string>
+    <string name="title_activity_custom_view_icon_text_tabs">Custom View Icon &amp; Text</string>
+    <string name="title_activity_pinned_top_tabs">Pin Top Tabs</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_youtube">Foothill Television</string>
+
+    <string name="action_toggle">Toggle Side Panel</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- Drawer Items -->
+    <string name="drawer_item_first">Overview</string>
+    <string name="drawer_item_second">Staff Directory</string>
+    <string name="drawer_item_third">Aeries Portal</string>
+    <string name="drawer_item_fourth">Campus Map</string>
+    <string name="drawer_item_fifth">FHS Television</string>
+    <string name="drawer_item_sixth">About</string>
+    <string name="drawer_item_seventh">Settings</string>
+    <string name="drawer_item_eighth">Privacy Policy</string>
+    <string name="drawer_item_ninth">Ninth item</string>
+    <string name="drawer_item_tenth">Tenth item</string>
+    <string name="drawer_item_eleventh">Eleventh item</string>
+    <string name="drawer_item_twelfth">Twelfth item</string>
+
+    <string name="googlecards">Google cards</string>
+    <string name="gridview">GridView</string>
+    <string name="appearance">Appearance Animation</string>
+    <string name="stickylistheaders">StickyListHeaders</string>
+    <string name="limit">Limit to 2</string>
+    <string name="itemmanipulation">Item Manipulation</string>
+    <string name="gridviewexample">GridView</string>
+    <string name="draganddrop">Drag and Drop</string>
+    <string name="dynamiclistview">DynamicListView</string>
+    <string name="animateaddition">Animate addition</string>
+    <string name="expandablelistitemadapter">Expand list items</string>
+    <string name="itemdeleted">Item deleted</string>
+    <string name="taptoundo">Tap to undo</string>
+    <string name="explainexpand">Tap on cards to expand or collapse them</string>
+    <string name="expandorcollapsecard">This is card number %d</string>
+    <string name="row_number">%s</string>
+    <string name="header">%c</string>
+    <string name="room_number">Room Number <b>%s</b></string>
+    <string name="class_test"><b>Class#:</b>f8982 \n<b>Email:</b>testemail@gmail.com</string>
+    <string name="lipsum">Lorem ipsum dolor sit amet, ut duis lorem provident sed felis blandit, condimentum donec lectus ipsum et mauris, morbi porttitor interdum feugiat nulla donec sodales, vestibulum nisl primis a molestie vestibulum quam, sapien mauris metus risus suspendisse magnis. Augue viverra nulla faucibus egestas eu, a etiam id congue rutrum ante, arcu tincidunt donec quam felis at ornare, iaculis ligula sodales venenatis commodo volutpat neque, suspendisse elit praesent tellus felis mi amet. Inceptos amet tempor lectus lorem est non, ac donec ac libero neque mauris, tellus ante metus eget leo consequat. Scelerisque dolor curabitur pretium blandit ut feugiat, amet lacus pulvinar justo convallis ut, sed natoque ipsum urna posuere nibh eu. Sed at sed vulputate sit orci, facilisis a aliquam tellus quam aliquam, eu aliquam donec at molestie ante, pellentesque mauris lorem ultrices libero faucibus porta, imperdiet adipiscing sit hac diam ut nulla. Lacus enim elit pulvinar donec vehicula dapibus, accumsan purus officia cursus dolor sapien, eu amet dis mauris mi nulla ut. Non accusamus etiam pede non urna tempus, vestibulum aliquam tortor eget pharetra sodales, in vestibulum ut justo orci nulla, lobortis purus sem semper consectetuer magni purus. Dolor a leo vestibulum amet ut sit, arcu ut eaque urna fusce aliquet turpis, sed fermentum sed vestibulum nisl pede, tristique enim lorem posuere in laborum ut. Vestibulum id id justo leo nulla, magna lobortis ullamcorper et dignissim pellentesque, duis suspendisse quis id lorem ante. Vivamus a nullam ante adipiscing amet, mi vel consectetuer nunc aenean pede quisque, eget rhoncus dis porttitor habitant nunc vivamus, duis cubilia blandit non donec justo dictumst, praesent vitae nulla nam pulvinar urna. Adipiscing adipiscing justo urna pulvinar imperdiet nullam, vitae fusce rhoncus proin nonummy suscipit, ullamcorper amet et non potenti platea ultrices, mauris nullam sapien nunc justo vel, eu semper pellentesque arcu fusce augue. Malesuada mauris nibh sit a a scelerisque, velit sem lectus tellus convallis consectetuer, ultricies auctor a ante eros amet sed.\n\n
+Risus lacus duis leo platea wisi, felis maecenas rutrum in id in donec, non id a potenti libero eget, posuere elit ea sed pellentesque quis. Sunt lacus urna lorem elit duis, nibh donec purus quisque consectetuer dolor, neque vestibulum proin ornare eros nonummy phasellus. Iaculis cras eu at egestas dolor montes, viverra quisque malesuada consectetuer semper maecenas, a sed vitae donec tempor aliqua metus, ornare mollis suscipit et erat fusce, sit orci aut auctor elementum fames aliquam. Platea dui integer magnis non metus, minus dignissimos ante massa nostra et, rutrum sapien egestas quis sapien donec donec. Erat sit a eros aenean natoque, quam libero id lorem enim proin, lorem ipsum fermentum mattis metus et. Aliquam aliquet suscipit purus conubia at neque, platea vivamus vestibulum nulla quibusdam senectus, et morbi lectus malesuada gravida donec, elementum sit convallis pellentesque velit amet. Et eveniet viverra vehicula consectetuer justo, provident sed commodo non lacinia velit, tempor phasellus vel leo nisl cras, vivamus et arcu interdum dui eu amet. Volutpat wisi rhoncus vel turpis diam quibusdam, dapibus elit est quisque cubilia mauris, nulla elit magna tempor accumsan bibendum, lorem varius sed interdum eget mattis, scelerisque egestas feugiat donec dui molestie. Leo facilisis nisl sit montes ligula sed, enim commodo consectetuer nunc est et, ut sed vehicula dolor luctus elit. Fermentum cras donec eget nibh est vel, sed justo risus et pharetra diam, eu vivamus egestas ligula risus diam, sed justo eget hac ut mauris. Vestibulum diam nec vitae mi eget suspendisse, aenean arcu purus facilisis purus class in, id aliquam sit id scelerisque sapien etiam. Ut nullam sit sed at mauris lobortis, consequat dolor autem ipsum euismod nulla, elit quis proin eget conubia varius, erat arcu massa mus in mauris, scelerisque ut eu sollicitudin libero leo urna.\n\n
+Consectetuer luctus tempor elit ut dolor ligula, quis dui per dui hendrerit ante sagittis, in quisque pretium in eleifend enim. Condimentum iaculis vitae feugiat dis tellus vel, lectus dolor nec dui nulla nascetur, et pellentesque curabitur lorem leo velit eget. Id nascetur arcu lobortis suspendisse imperdiet urna, natoque nascetur ante in porta a, interdum hendrerit mi bibendum platea tellus, urna in enim ornare vestibulum faucibus enim. Leo fusce egestas ante nec volutpat, in tempor vel facilisis potenti ut, pede at non lorem a commodo, nulla dolor orci interdum vestibulum nulla. Dui nulla vestibulum quisque a pharetra porta, integer nec ipsum nec sed dui pharetra, magna et dignissim ipsum sed dictum, litora eros vivamus scelerisque libero ipsum. Sed ac ac lorem molestie adipiscing morbi, pellentesque imperdiet nunc quis morbi amet ante, libero dui ligula nec risus neque et, velit nonummy phasellus et facilisi amet, ligula in elementum non sapien pulvinar faucibus. Eu leo ut posuere sed aliquet, tincidunt vel urna volutpat tempus sem, sit felis aliquet vestibulum condimentum sit, amet nibh vel tellus purus ullamcorper libero, nulla vestibulum pede ut vestibulum pretium. Eu nulla vestibulum a neque in metus, quisquam nam sed cursus eget luctus, pede ultrices nec sed dignissim pellentesque, sit class cursus metus nulla placerat mauris, consequat mollis neque vivamus amet pede. Mauris dolor nulla diam eros bibendum, quam ante vestibulum morbi non ligula vel, molestie curabitur rhoncus nulla euismod interdum non. Nulla fringilla lorem mollis ad massa, sit molestie nibh lorem arcu volutpat, accumsan commodo lectus eu et donec, sit tempor tempus rutrum in curabitur amet. Nec urna euismod a tincidunt commodo, eu pede turpis libero vitae viverra, ante vestibulum nam non habitasse potenti, mauris imperdiet in in nunc convallis. Et nostra wisi in est accumsan vehicula, quisque vitae felis mauris sed vulputate nec, ante imperdiet sollicitudin massa iaculis massa sit.\n\n
+Quam libero nulla netus eu porta curae, ut nulla bibendum facilisis et urna sed, quis congue vestibulum aliquam interdum etiam. Nulla vel lobortis ullamcorper vitae excepturi, neque urna feugiat lectus vel lacinia, massa pretium orci eu metus neque vulputate. Imperdiet ac velit rhoncus nulla malesuada nullam, nec pulvinar justo gravida lorem rutrum magna, habitasse repudiandae mi eros vestibulum ante, nec euismod dui iaculis in turpis pretium, ac id metus egestas proin lacus lectus. Laoreet lorem nec vitae risus erat arcu, vitae quam ut in ante tristique, porta dolor pede quam et odio nam, arcu lacus sem congue ante cursus massa. Et mattis sagittis erat accumsan fusce quam, vehicula ligula beatae natoque fusce sodales conubia, habitasse metus cum magnis viverra nam cursus, egestas urna wisi primis blandit eu magna, eget libero elit lacus lorem dis aliquam. Ut mauris ante natoque lacus massa, justo a lectus sodales enim adipiscing id, accumsan ut ipsum vestibulum sed enim auctor, vitae congue tincidunt id phasellus lacinia scelerisque, tincidunt sapien nulla euismod volutpat iaculis. Platea sociis nec aliquet nec molestie, in mi et augue sapien in vivamus, integer fames proin vitae in ullamcorper et. Fringilla etiam sapiente rhoncus suspendisse nec id, lobortis cras eget egestas dui ac nec, justo lacus ut lorem bibendum quia eros, eget a gravida id donec nunc suscipit, porta sed in sodales non rutrum. Lectus vel dui elementum pellentesque magna aliquam, vitae non sit pede et fusce nibh, id id deserunt ornare dui sit condimentum, in adipiscing imperdiet turpis nam aliquet, facilisis metus magna lacus wisi facilisis tortor. Vulputate elit accumsan quam amet ligula, suspendisse lacus mi nonummy integer urna, libero nulla nunc varius in odio, laoreet nulla amet placerat amet nec. Consectetuer vel massa hendrerit vitae iaculis id, sed ut ut laudantium odio in, elit vestibulum duis ante maecenas interdum in, neque vehicula ultrices varius in quam, pede tellus pellentesque sed nullam quis.</string>
+
+    <string name="transition_name_name">transition:NAME</string>
+    <string name="transition_name_circle">transition:CIRCLE</string>
+    <string name="transition_name_phone">transition:PHONE</string>
+
+    <string name="arc_nosessions">NO SESSIONS</string>
+    <string name="arc_passingsession_hol">NO SESSIONS (HOLIDAY)</string>
+    <string name="arc_passingsession_pre">SCHOOL STARTING\u2026</string>
+    <string name="arc_passingsession" formatted="false">PASSING PERIOD (%s %d \u00BB %s %d)</string>
+    <string name="arc_passingsession_both" formatted="false">PASSING PERIOD (%s \u00BB %s)</string>
+    <string name="arc_passingsession_frst" formatted="false">PASSING PERIOD (%s \u00BB %s %d)</string>
+    <string name="arc_passingsession_scnd" formatted="false">PASSING PERIOD (%s %d \u00BB %s)</string>
+
+    <string name="notif_persch_header" formatted="false">Period: %s, Schedule: %s</string>
+    <string name="notif_tremaining_content" formatted="false">Time Remaining: %s minutes</string>
+
+    <string name="message_no_connection">Please check your connection and try again.</string>
+    <string name="no_connection_title">No Connection</string>
+    <string name="no_connection_dialog">Unable to connect to the Internet</string>
+    <string name="button_try_again">TRY AGAIN</string>
+
+    <string name="snackbar_fields_required">THE FOLLOWING FIELDS ARE REQUIRED</string>
+
+    <string name="home">Home</string>
+    <string name="gradebook">Gradebook</string>
+    <string name="profile">Student Profile</string>
+    <string name="attendance">Attendance</string>
+    <string name="course_requests">Course Requests</string>
+    <string name="transcripts">Transcripts</string>
+    <string name="url_home">https://parentnet.tustin.k12.ca.us/ParentPortal/m/loginparent.html#Home.html</string>
+    <string name="url_gradebook">https://parentnet.tustin.k12.ca.us/ParentPortal/m/loginparent.html#GradebookSummary.html</string>
+    <string name="url_profile">https://parentnet.tustin.k12.ca.us/ParentPortal/m/loginparent.html#Students.html</string>
+    <string name="url_attendence">https://parentnet.tustin.k12.ca.us/ParentPortal/m/loginparent.html#Attendance.html</string>
+    <string name="url_course_requests">https://parentnet.tustin.k12.ca.us/ParentPortal/ClassScheduling.aspx</string>
+    <string name="url_transcripts">https://parentnet.tustin.k12.ca.us/ParentPortal/Transcripts.aspx</string>
+    <string name="uri">https://parentnet.tustin.k12.ca.us/ParentPortal/LoginParent.aspx?page=default.aspx/</string>
+    <string name="url_postrequest" formatted="false">checkCookiesEnabled=true&amp;checkMobileDevice=true&amp;checkStandaloneMode=false&amp;checkTabletDevice=false&amp;portalAccountUsername=%s&amp;portalAccountPassword=%s&amp;portalAccountUsernameLabel=&amp;submit=</string>
+    <string name="url_create_new_account">https://parentnet.tustin.k12.ca.us/ParentPortal/CreateNewPortalAccount.aspx</string>
+    <string name="confirm_exit">Press Back button again to exit Aeries Portal</string>
+    <string name="action_aeries">Aeries Portal</string>
+    <string name="no_account_displaylogin">No account?</string>
+    <string name="create_account_displaylogin">Create account</string>
+    <string name="craete_account_headertitle">Create New Account</string>
+    <string name="splash_message">Loading\u2026</string>
+    <string name="splash_initialmessage">First startup\u2026</string>
+
+    <string name="connection_timeout">Connection Timed Out</string>
+    <string name="login_auth_failed">Check email or password and try again</string>
+    <string name="check_email_invalid">is not a valid email address</string>
+    <string name="check_password_invalid">is not a valid password</string>
+
+    <string name="tooltip_cardview">Press to view classroom on map!</string>
+
+    <string name="remember_login">Remember Login</string>
+    <string name="alert_help_abbrev_title">Schedule Abbreviations</string>
+
+    <string name="alert_abbrev_help_0"><![CDATA[
+        <font color="red">REG</font>: Regular Bell Schedule<br>
+        <font color="red">LTE</font>: Late Start Bell Schedule<br>
+        <font color="red">MIN</font>: Minimum Day Bell Schedule<br>
+        <font color="red">FIN</font>: Finals Bell Schedule]]>
+    </string>
+
+    <string name="alert_abbrev_help_1"><![CDATA[
+        <font color="red">PER</font>: Period<br>
+        <font color="red">BRK</font>: Break/Snack<br>
+        <font color="red">HMR</font>: Homeroom<br>
+        <font color="red">LNCH</font>: Lunch]]>
+    </string>
+
+    <string name="popup_menu_item_exit">Exit</string>
+    <string name="popup_menu_item_search">Search</string>
+    <string name="listview_searchhint">Search for Contact\u2026</string>
+
+    <string name="pref_kahuna">Kahuna (Coming in Later Builds\u2026)</string>
+    <string name="pref_notif">Notifications</string>
+    <string name="pref_notif_checkbox">Enable Notifications</string>
+    <string name="pref_feedback">Feedback or Issues?</string>
+    <string name="feedback_subject">Feedback and Issues - FHS Mobile</string>
+    <string name="feedback_email">jakestrj42@gmail.com</string>
+
+    <string name="scheduleview_modeltext0">Class Session 0</string>
+    <string name="scheduleview_modeltext1">Class Session 1</string>
+    <string name="scheduleview_modeltext2">Class Session 2</string>
+    <string name="scheduleview_modeltext3">Class Session 3</string>
+    <string name="scheduleview_modeltext4">Class Session 4</string>
+    <string name="scheduleview_modeltext5">Class Session 5</string>
+    <string name="scheduleview_modeltext6">Class Session 6</string>
+    <string name="scheduleview_classvoid">\u0020</string>
+
+    <string name="introview_title1">Welcome to FHS Mobile</string>
+    <string name="introview_desc1">Display all your classes in a single view with a responsive bell schedule.</string>
+    <string name="introview_title2">The Staff Directory</string>
+    <string name="introview_desc2">View all information regarding our staff including email, class location (with map redirect), and divisions</string>
+    <string name="introview_title3">Overview and Notifications</string>
+    <string name="introview_desc3">View elements of the week along with a notification which displays the remaining minutes in the period, passing period or pre-school period.</string>
+    <string name="introview_title4">Navigation Bar 1</string>
+    <string name="introview_desc4">Quickly navigate through all features of the app with a single right-swipe</string>
+    <string name="introview_title6">Navigation Bar 2</string>
+    <string name="introview_desc6">Swipe once more from Navigation Bar 1 to view a smaller bell schedule and further app features.</string>
+    <string name="introview_title7">Aeries Portal - Grades</string>
+    <string name="introview_desc7">Securely login and view all of your grades, transcripts and standardized tests in a sleek UI</string>
+
+    <string name="company_name">Foothill High School Mobile</string>
+    <string name="subtitle">ABOUT US</string>
+    <string name="about_us_subtitle">Foothill High Mobile is licenced under the <![CDATA[<a href="http://www.apache.org/licenses/LICENSE-2.0">Apache Licence, Version 2.0</a>]]> <!--<a href=""></a>--></string>
+    <string name="about_us_text">Developer: Jake Johnson, under media group: NovaMedia</string>
+
+    <string name="cardview_loc">+<b>%s</b></string>
+    <string name="cardview_fullcard">View Full Card</string>
+
+    <!--The mobile application \'Foothill High Mobile\' is individually developed and updated by FHS student Jake Johnson. This app fulfils its role as a utility to aid students in both their freshman year and years
+                                     ahead with viewing a sleek bell schedule notification service, communicating and locating teachers effortlessly as well as monitoring their individual grades and campus lives.-->
+
+    <string name="company_name_privacy">Privacy Policy</string>
+    <string name="subtitle_privacy">CONTENT</string>
+    <string name="privacy_text">Personal Data collected for the following purposes and using the following services:
+Registration and authentication
+Direct registration
+Personal Data: email address and password
+Full policy
+Data Controller and Owner
+Types of Data collected
+Among the types of Personal Data that this Application collects, by itself or through third parties, there are: email address and password.
+Other Personal Data collected may be described in other sections of this privacy policy or by dedicated explanation text contextually with the Data collection.
+The Personal Data may be freely provided by the User, or collected automatically when using this Application.
+Any use of Cookies - or of other tracking tools - by this Application or by the owners of third party services used by this Application, unless stated otherwise, serves to identify Users and remember their preferences, for the sole purpose of providing the service required by the User.
+Failure to provide certain Personal Data may make it impossible for this Application to provide its services.
+Users are responsible for any Personal Data of third parties obtained, published or shared through this Application and confirm that they have the third party\'s consent to provide the Data to the Owner.
+Mode and place of processing the Data
+Methods of processing
+The Data Controller processes the Data of Users in a proper manner and shall take appropriate security measures to prevent unauthorized access, disclosure, modification, or unauthorized destruction of the Data.
+The Data processing is carried out using computers and/or IT enabled tools, following organizational procedures and modes strictly related to the purposes indicated. In addition to the Data Controller, in some cases, the Data may be accessible to certain types of persons in charge, involved with the operation of the site (administration, sales, marketing, legal, system administration) or external parties (such as third party technical service providers, mail carriers, hosting providers, IT companies, communications agencies) appointed, if necessary, as Data Processors by the Owner. The updated list of these parties may be requested from the Data Controller at any time.
+Place
+The Data is processed at the Data Controller\'s operating offices and in any other places where the parties involved with the processing are located. For further information, please contact the Data Controller.
+Retention time
+The Data is kept for the time necessary to provide the service requested by the User, or stated by the purposes outlined in this document, and the User can always request that the Data Controller suspend or remove the data.
+The use of the collected Data
+The Data concerning the User is collected to allow the Owner to provide its services, as well as for the following purposes: Registration and authentication.
+The Personal Data used for each purpose is outlined in the specific sections of this document.
+Detailed information on the processing of Personal Data
+Personal Data is collected for the following purposes and using the following services:
+Registration and authentication
+Additional information about Data collection and processing
+Legal action
+The User\s Personal Data may be used for legal purposes by the Data Controller, in Court or in the stages leading to possible legal action arising from improper use of this Application or the related services.
+The User declares to be aware that the Data Controller may be required to reveal personal data upon request of public authorities.
+Additional information about User\'s Personal Data
+In addition to the information contained in this privacy policy, this Application may provide the User with additional and contextual information concerning particular services or the collection and processing of Personal Data upon request.
+System logs and maintenance
+For operation and maintenance purposes, this Application and any third party services may collect files that record interaction with this Application (System logs) or use for this purpose other Personal Data (such as IP Address).
+Information not contained in this policy
+More details concerning the collection or processing of Personal Data may be requested from the Data Controller at any time. Please see the contact information at the beginning of this document.
+The rights of Users
+Users have the right, at any time, to know whether their Personal Data has been stored and can consult the Data Controller to learn about their contents and origin, to verify their accuracy or to ask for them to be supplemented, cancelled, updated or corrected, or for their transformation into anonymous format or to block any data held in violation of the law, as well as to oppose their treatment for any and all legitimate reasons. Requests should be sent to the Data Controller at the contact information set out above.
+This Application does not support \“Do Not Track\” requests.
+To determine whether any of the third party services it uses honor the “Do Not Track” requests, please read their privacy policies.
+Changes to this privacy policy
+The Data Controller reserves the right to make changes to this privacy policy at any time by giving notice to its Users on this page. It is strongly recommended to check this page often, referring to the date of the last modification listed at the bottom. If a User objects to any of the changes to the Policy, the User must cease using this Application and can request that the Data Controller remove the Personal Data. Unless stated otherwise, the then-current privacy policy applies to all Personal Data the Data Controller has about Users.
+Information about this privacy policy
+The Data Controller is responsible for this privacy policy, prepared starting from the modules provided by Iubenda and hosted on Iubenda\'s servers.</string>
+
+
+
+
+</resources>
