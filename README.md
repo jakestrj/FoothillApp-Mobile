@@ -113,7 +113,7 @@ packaged and sent along with the request.
 **Figure 8.2** Final Design of Listview for Teachers updated
 sequentially and the final cardview with direct-to-mapview integration
 
-<img src="./media/image19.png" width="375">
+<img src="./media/image19.png" width="350">
 
 **Figure 8.3** Clicking on either map icon in the staff directory or
 card view will redirect the app to a map-fragment with map location and
