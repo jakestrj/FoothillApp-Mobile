@@ -79,7 +79,7 @@ into Android's possibilities to encrypt data on-device while preventing
 root-permissible accounts from accessing that data and decrypting the
 usernames and passwords.
 
-![G:\\Downloads\\\_icons\\\_FHSAPP\\snaps\\Screenshot\_2016-11-06-20-26-59.png](./media/image12.png)
+<img src="./media/image12.png" width="350">
 
 **Figure 5.1** Final Design for Login view integrating newest system for
 remembering login details using advanced KeyStore cryptography
@@ -87,7 +87,7 @@ remembering login details using advanced KeyStore cryptography
 
 #### **6. Improvement: Using Aeries REST API system to retrieve test scores, gradebook data, etc.; increased security using "certificate"**
 
-![G:\\Downloads\\\_icons\\\_FHSAPP\\snaps\\Screenshot\_20181101-171754\_Grades.jpg](./media/image13.jpeg)
+<img src="./media/image13.jpeg" width="350">
 
 Using Aeries' Rest API System, a more streamlined development engine can
 be developed without simply displaying the results of a web page.
@@ -104,7 +104,7 @@ packaged and sent along with the request.
 
 #### **8. Staff Directory Listview and Cardview UI Design Prototyping**
 
-![G:\\Downloads\\\_icons\\\_FHSAPP\\snaps\\UI\\cards.png](./media/image16.png)
+<img src="./media/image16.png" width="400">
 
 **Figure 8.1** Original UI Design for Cardview with contact information
 
@@ -113,7 +113,7 @@ packaged and sent along with the request.
 **Figure 8.2** Final Design of Listview for Teachers updated
 sequentially and the final cardview with direct-to-mapview integration
 
-![G:\\Downloads\\\_icons\\\_FHSAPP\\snaps\\Screenshot\_20170830-080847.png](./media/image19.png)
+<img src="./media/image19.png" width="350">
 
 **Figure 8.3** Clicking on either map icon in the staff directory or
 card view will redirect the app to a map-fragment with map location and
