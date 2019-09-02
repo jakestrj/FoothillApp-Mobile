@@ -56,7 +56,7 @@ system not incl.)
 
 #### **4. UI/UX Design for Sports Integration and Device Interaction**
 
-![G:\\Downloads\\\_icons\\\_FHSAPP\\snaps\\UI\\gameinfo\_ios7.png](./media/image8.jpeg)
+<img src="./media/image8.jpeg" width="400">
 
 **Figure 4.1** Model UI Design for team v. team sports layout using
 Android Fragment and IOS Listview
@@ -79,7 +79,7 @@ into Android's possibilities to encrypt data on-device while preventing
 root-permissible accounts from accessing that data and decrypting the
 usernames and passwords.
 
-<img src="./media/image12.png" width="350">
+<img src="./media/image12.png" width="375">
 
 **Figure 5.1** Final Design for Login view integrating newest system for
 remembering login details using advanced KeyStore cryptography
@@ -87,7 +87,7 @@ remembering login details using advanced KeyStore cryptography
 
 #### **6. Improvement: Using Aeries REST API system to retrieve test scores, gradebook data, etc.; increased security using "certificate"**
 
-<img src="./media/image13.jpeg" width="350">
+<img src="./media/image13.jpeg" width="375">
 
 Using Aeries' Rest API System, a more streamlined development engine can
 be developed without simply displaying the results of a web page.
@@ -104,7 +104,7 @@ packaged and sent along with the request.
 
 #### **8. Staff Directory Listview and Cardview UI Design Prototyping**
 
-<img src="./media/image16.png" width="400">
+<img src="./media/image16.png" width="375">
 
 **Figure 8.1** Original UI Design for Cardview with contact information
 
@@ -113,7 +113,7 @@ packaged and sent along with the request.
 **Figure 8.2** Final Design of Listview for Teachers updated
 sequentially and the final cardview with direct-to-mapview integration
 
-<img src="./media/image19.png" width="350">
+<img src="./media/image19.png" width="375">
 
 **Figure 8.3** Clicking on either map icon in the staff directory or
 card view will redirect the app to a map-fragment with map location and
