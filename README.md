@@ -1,7 +1,7 @@
 Cross-Platform Mobile Application for Students, Parents, and Faculty 
 ====================================================================
 
-[<img src="./media/playicon.png" width="150">](https://github.com/jakestrj/FoothillApp-Mobile)
+[<img src="./media/playicon.png" width="150">](https://github.com/jakestrj/FoothillApp-Mobile) [<img src="./media/iosicon.png" width="150">](https://apps.apple.com/us/app/foothill-high/id917528327)
 
 Jake R. Johnson
 ---------------
