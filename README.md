@@ -1,5 +1,7 @@
-Cross-Platform Mobile Application for Students, Parents, and Faculty
+Cross-Platform Mobile Application for Students, Parents, and Faculty 
 ====================================================================
+
+[<img src="./media/playicon.png" width="150">](https://github.com/jakestrj/FoothillApp-Mobile)
 
 Jake R. Johnson
 ---------------
@@ -79,7 +81,7 @@ into Android's possibilities to encrypt data on-device while preventing
 root-permissible accounts from accessing that data and decrypting the
 usernames and passwords.
 
-<img src="./media/image12.png" width="375">
+<img src="./media/image12.png" width="300">
 
 **Figure 5.1** Final Design for Login view integrating newest system for
 remembering login details using advanced KeyStore cryptography
@@ -87,7 +89,7 @@ remembering login details using advanced KeyStore cryptography
 
 #### **6. Improvement: Using Aeries REST API system to retrieve test scores, gradebook data, etc.; increased security using "certificate"**
 
-<img src="./media/image13.jpeg" width="375">
+<img src="./media/image13.jpeg" width="300">
 
 Using Aeries' Rest API System, a more streamlined development engine can
 be developed without simply displaying the results of a web page.
@@ -97,23 +99,23 @@ packaged and sent along with the request.
 
 #### **7. Media Syncing, Twitter, ASB and Foothill Television Integration**
 
-<img src="./media/image14.jpeg" width="300"> <img src="./media/image15.jpeg" width="350"> 
+<img src="./media/image14.jpeg" width="300"> <img src="./media/image15.jpeg" width="347"> 
 
 **Figure 7.1** Foothill Media integration and custom YouTube-integrated
 "fragment" view to watch videos in-app
 
 #### **8. Staff Directory Listview and Cardview UI Design Prototyping**
 
-<img src="./media/image16.png" width="375">
+<img src="./media/image16.png" width="300">
 
 **Figure 8.1** Original UI Design for Cardview with contact information
 
-<img src="./media/image17.png" width="350"> <img src="./media/image18.png" width="350"> 
+<img src="./media/image17.png" width="325"> <img src="./media/image18.png" width="325"> 
 
 **Figure 8.2** Final Design of Listview for Teachers updated
 sequentially and the final cardview with direct-to-mapview integration
 
-<img src="./media/image19.png" width="350">
+<img src="./media/image19.png" width="325">
 
 **Figure 8.3** Clicking on either map icon in the staff directory or
 card view will redirect the app to a map-fragment with map location and
