@@ -14,6 +14,6 @@ package com.novallc.foothillappmobile.activity.YoutubeRecyclerView;
  * limitations under the License.
  */
 public class ApiKey {
-    public static final String YOUTUBE_API_KEY = "AIzaSyBxxYJcizI2IRKGIW0NukXtAM4tqW7xSsM";
+    public static final String YOUTUBE_API_KEY = "HIDDEN";
 
 }
