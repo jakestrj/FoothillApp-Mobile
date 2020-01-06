@@ -1,8 +1,7 @@
 Cross-Platform Mobile Application for Students, Parents, and Faculty 
 ====================================================================
 
-<img src="./media/playicon.png" width="150">
-<img src="./media/iosicon.png" width="150">
+[<img src="./media/playicon.png" width="150">]()[<img src="./media/iosicon.png" width="150">]()
 
 Jake R. Johnson
 ---------------
